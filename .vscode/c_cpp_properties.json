@@ -1,0 +1,70 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/include/func",
+                "${workspaceFolder}/include/eigen",
+                "${workspaceFolder}/include/spectra",
+                "${workspaceFolder}/include/spectra/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/include/func",
+                "${workspaceFolder}/include/eigen",
+                "${workspaceFolder}/include/spectra/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "compilerPath": "C:\\mingw-w64\\bin\\gcc.exe",
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/include",
+                    "${workspaceFolder}/include/func",
+                    "${workspaceFolder}/include/eigen",
+                    "${workspaceFolder}/include/spectra/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/include/func",
+                "${workspaceFolder}/include/eigen",
+                "${workspaceFolder}/include/spectra/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "compilerPath": "/Library/Developer/CommandLineTools/usr/bin/gcc",
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/include",
+                    "${workspaceFolder}/include/func",
+                    "${workspaceFolder}/include/eigen",
+                    "${workspaceFolder}/include/spectra/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}

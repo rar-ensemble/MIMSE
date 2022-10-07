@@ -1,0 +1,145 @@
+1000                                N_init
+
+-1 -1 -1                            L_box
+0.0001 0.0001 0.0001                dL_box
+
+0.75                                vol_frac
+5e-4                                dvol_frac
+
+1                                   b
+
+1                                   type_kbT
+1                                   kbTi
+0                                   kbTf
+
+1                                   type_force
+1                                   type_epsilon
+1                                   type_sigma
+2                                   force_para_1
+6                                   force_para_2
+1                                   r_force_cut_off
+
+12                                  type_distribution
+0.4492                              para_1
+1                                   para_2
+0.8                                 para_3
+
+1                                   type_mass
+
+2                                   type_BC
+
+100 100 100                         N_grid_sf
+120 120 120                         N_grid_sf_max
+
+1                                  type_initialization
+
+1                                   type_pre_start
+
+4                                   type_quenching
+3                                  type_reset_system
+
+1                                   type_relaxation_q
+1                                   type_relaxation_r
+
+-1                                   type_controller
+0.67                                control_variable_final
+
+1 -1                                bl_para
+
+0.3                                  bias_U_0
+3                                  bias_U_sigma
+0                                   bias_Z_cut_off
+0                                   well_U_0
+0                                   well_U_sigma
+0                                   well_cut_off
+
+1                                   type_dynamics_q
+1                                   type_dynamics_r
+
+1                                   type_MD_MC_q
+1                                   type_MD_MC_r
+
+0.1                                 p_swap
+1                                   delta_r_MC
+
+2                                   type_neighbor_list
+1.0                                 nl_para
+
+0.002                                dt_minimizer
+1                                   dt_reset_system
+
+1000                                   NUMBER_OF_QUENCHES
+0                                   NUMBER_OF_EQB_STEPS
+
+1e-16                               U_tol_0
+1e-7                                F_tol_0
+1e-4                                cv_tol
+0                                   sigma_tol_0
+
+3                                   type_eigenvalue_solver
+0                                   print_eigenvector
+3000                                number_of_eigenvalues
+3000                                max_iters_eig
+1e-10                               eigs_tol
+
+1                                   type_force_flag
+0                                   particle_fix_flag
+
+1.0                                 random_seed_size_dist
+1.0                                 random_seed_pos_init
+0                                   random_seed_pos_init_discard
+1.0                                 random_seed_random_number
+
+Weibull_342.lammpstrj               init_filename
+
+run_config.txt                      run_parameters_filename
+
+1                                   output_mode
+
+0                                   frame_print_frequency
+0                                   utils_print_frequency
+0                                   tau_print_frequency
+0                                   hessian_print_frequency
+0                                   structure_print_frequency
+0                                   structure_factor_print_frequency
+1                                   data_print_frequency
+0                                   individual_data_print_frequency
+
+0                                   ds_print_frequency
+0                                   dcontour_print_frequency
+
+0                                   avalanche_count
+
+output/                             output_PATH
+U.txt                               U_filename
+Z.txt                               Z_filename
+R.txt                               R_filename
+s.txt                               s_contour_filename
+displacement.txt                    displacement_filename
+op.txt                              order_parameter_filename
+r_ij_p.txt                          r_ij_parameter_filename
+r_ij.txt                            r_ij_filename
+structure_                          structure_filename
+U_i.txt                             U_i_filename
+Z_i.txt                             Z_i_filename
+R_i.txt                             R_i_filename
+s_i.txt                             s_i_filename
+contour_i.txt                       contour_i_filename
+ds_i.txt                            ds_i_filename
+dconotur_i.txt                      dcontour_i_filename
+displacement_i.txt                  displacement_i_filename
+ddisplacement_i.txt                 ddisplacement_i_filename
+eigenvalue.txt                      eigenvalues_filename
+eigenvector.txt                     eigenvectors_filename
+config_                             frame_filename
+config_                             utils_filename
+struc_                              structure_factor_filename
+tol.txt                             tolerances_filename
+unphysical.txt                      unphysical_filename
+d_v.txt                             displacement_vector_filename
+
+analysis/input/                     analysis_PATH
+analysis.input                      analysis_filename
+
+-1                                   unit_vector_flag
+5 0.2 0.4 0.6 0.8 1.0               unit_vector_r

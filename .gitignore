@@ -1,0 +1,27 @@
+#Ignore all .exe and .o files
+*.exe
+*.o
+
+#ignore other files
+.DS_Store
+Thumbs.db
+.vscode/ipch/
+
+#ignore exe and output
+bin/*
+output/*
+output/graphs/*
+output*/
+
+#not these files
+!output/graphs/
+!output/graphs/.keep
+!bin/.keep
+
+#ignore sub repos
+*analysis/
+*job_creation/
+
+#ignore eigen and spectra
+include/eigen/
+include/spectra/

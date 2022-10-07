@@ -1,0 +1,82 @@
+/*
+ * File: QRP_WS.code-workspace
+ * Project: Quenching
+ * File Created: Friday, 29th June 2020 3:29:22 pm
+ * Author: Amruthesh T (amru@seas.upenn.edu)
+ * -----
+ * Last Modified: Thursday, 5th December 2020 2:18:29 am
+ * Modified By: Amruthesh T (amru@seas.upenn.edu)
+ * -----
+ * Copyright (c) 2020-2022 Amru, University of Pennsylvania
+ * 
+ * Summary: Fill In
+ */
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.m": "matlab",
+			"*.tpp": "cpp",
+			"fstream": "cpp",
+			"iomanip": "cpp",
+			"iosfwd": "cpp",
+			"iostream": "cpp",
+			"*.tcc": "cpp",
+			"vector": "cpp",
+			"array": "cpp",
+			"cctype": "cpp",
+			"clocale": "cpp",
+			"cmath": "cpp",
+			"complex": "cpp",
+			"cstddef": "cpp",
+			"cstdint": "cpp",
+			"cstdio": "cpp",
+			"cstdlib": "cpp",
+			"cstring": "cpp",
+			"ctime": "cpp",
+			"cwchar": "cpp",
+			"cwctype": "cpp",
+			"deque": "cpp",
+			"list": "cpp",
+			"unordered_map": "cpp",
+			"exception": "cpp",
+			"functional": "cpp",
+			"initializer_list": "cpp",
+			"istream": "cpp",
+			"limits": "cpp",
+			"new": "cpp",
+			"numeric": "cpp",
+			"optional": "cpp",
+			"ostream": "cpp",
+			"sstream": "cpp",
+			"stdexcept": "cpp",
+			"streambuf": "cpp",
+			"string_view": "cpp",
+			"system_error": "cpp",
+			"type_traits": "cpp",
+			"tuple": "cpp",
+			"typeinfo": "cpp",
+			"utility": "cpp",
+			"cstdarg": "cpp",
+			"string": "cpp",
+			"regex": "cpp"
+		},
+		"[cpp]": {
+			"editor.autoIndent": "full",
+			"editor.quickSuggestions": {
+				"other": true,
+				"comments": false,
+				"strings": false
+			}
+		},
+		"terminal.integrated.shell.windows": "cmd.exe",
+		"python.linting.pylintEnabled": true,
+    	"python.linting.flake8Enabled": false,
+    	"python.linting.enabled": true,
+    	"python.pythonPath": "python3"
+	}
+}
